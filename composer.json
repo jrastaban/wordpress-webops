@@ -26,7 +26,7 @@
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
     "wpackagist-plugin/fakerpress": "*",
     "wpackagist-theme/twentynineteen": "^1.2",
-    "wpackagist-theme/twentytwentyone": "*"
+    "wpackagist-theme/twentytwentyone": "^1.0.0"
   },
   "require-dev": {
     "behat/mink-goutte-driver": "^1.2.1",
