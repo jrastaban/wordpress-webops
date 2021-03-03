@@ -11,6 +11,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/pantheon-systems/wordpress-composer"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/jrastaban/disable-admin-email-checks"
     }
   ],
   "require": {
@@ -25,7 +29,7 @@
     "wpackagist-plugin/pantheon-advanced-page-cache": ">=0.3.0",
     "wpackagist-plugin/wp-native-php-sessions": ">=0.6.9",
     "wpackagist-plugin/fakerpress": "*",
-    "wpackagist-plugin/make-disable-admin-email-verification-prompt": "*",
+    "jrastaban/disable-admin-email-checks": "*",
     "wpackagist-theme/twentynineteen": "^1.2",
     "wpackagist-theme/twentytwentyone": "^1.0.0"
   },

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebaf2b90fec666260e79dc525a77aff2",
+    "content-hash": "1b293fa8e4aaf204d8cfac8ea4343548",
     "packages": [
         {
             "name": "composer/installers",
@@ -201,6 +201,27 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "jrastaban/disable-admin-email-checks",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jrastaban/disable-admin-email-checks.git",
+                "reference": "29085d1e9a48cc2bff5cedab7615a3cc6a44df1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jrastaban/disable-admin-email-checks/zipball/29085d1e9a48cc2bff5cedab7615a3cc6a44df1d",
+                "reference": "29085d1e9a48cc2bff5cedab7615a3cc6a44df1d",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/jrastaban/disable-admin-email-checks/tree/main",
+                "issues": "https://github.com/jrastaban/disable-admin-email-checks/issues"
+            },
+            "time": "2021-03-03T22:28:09+00:00"
         },
         {
             "name": "pantheon-systems/quicksilver-pushback",
@@ -629,24 +650,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/lh-hsts/"
-        },
-        {
-            "name": "wpackagist-plugin/make-disable-admin-email-verification-prompt",
-            "version": "1.0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/make-disable-admin-email-verification-prompt/",
-                "reference": "tags/1.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/make-disable-admin-email-verification-prompt.1.0.1.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/make-disable-admin-email-verification-prompt/"
         },
         {
             "name": "wpackagist-plugin/pantheon-advanced-page-cache",
