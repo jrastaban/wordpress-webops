@@ -11,6 +11,8 @@ set -eo pipefail
 # Authenticate with Terminus
 terminus -n auth:login --machine-token="$TERMINUS_TOKEN"
 
+terminus wp "$TERMINUS_SITE.dev" -- plugin list
+
 # Prepare for Pantheon
 composer run prepare-for-pantheon
 
